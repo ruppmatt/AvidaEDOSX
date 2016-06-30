@@ -1,0 +1,72 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67F5E3B7941A812F547A65C561EF80E3258E62CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "33423835B021EF0D85C3E0D211CDA5FCB7775AEB" : 0,
+    "22D3652090996D1B342A80013323ABC87E1BEC5B" : 0,
+    "C936BE57B76354C9FFFC0988FC4DF911E2D7FBAC" : 0,
+    "9030E4BD85F13242761EF81023A22CB8EBC3657A" : 0,
+    "69F966D49198AF18E6FE538E8D5C145673E847F2" : 0,
+    "67F5E3B7941A812F547A65C561EF80E3258E62CE" : 0,
+    "3707ACD5F439AEF7EC4C31DDB27EEE08689A43A8" : 0,
+    "EA85665D5D254014EB67869DC07933F82BFEC675" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF353D46-2F00-4979-B6EA-F0244F519462",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "33423835B021EF0D85C3E0D211CDA5FCB7775AEB" : "Avida\/AvidaEDOSX\/libs\/avida\/libs\/json\/",
+    "22D3652090996D1B342A80013323ABC87E1BEC5B" : "Avida\/AvidaEDOSX\/libs\/mongoose\/",
+    "C936BE57B76354C9FFFC0988FC4DF911E2D7FBAC" : "Avida\/AvidaEDOSX\/libs\/avida\/libs\/apto\/",
+    "9030E4BD85F13242761EF81023A22CB8EBC3657A" : "Avida\/AvidaEDOSX\/libs\/avida\/documentation\/",
+    "69F966D49198AF18E6FE538E8D5C145673E847F2" : "Avida\/AvidaEDOSX\/libs\/avida\/libs\/av_ui\/",
+    "67F5E3B7941A812F547A65C561EF80E3258E62CE" : "Avida\/",
+    "3707ACD5F439AEF7EC4C31DDB27EEE08689A43A8" : "Avida\/AvidaEDOSX\/libs\/avida\/libs\/empirical\/",
+    "EA85665D5D254014EB67869DC07933F82BFEC675" : "Avida\/AvidaEDOSX\/libs\/cef\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AvidaED",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AvidaEDOSX\/AvidaED.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cesanta\/mongoose",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22D3652090996D1B342A80013323ABC87E1BEC5B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ruppmatt\/json",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33423835B021EF0D85C3E0D211CDA5FCB7775AEB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mercere99\/Empirical",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3707ACD5F439AEF7EC4C31DDB27EEE08689A43A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/www.github.com\/devosoft\/Avida",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67F5E3B7941A812F547A65C561EF80E3258E62CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dblackwood\/av_ui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69F966D49198AF18E6FE538E8D5C145673E847F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devosoft\/avida.wiki.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9030E4BD85F13242761EF81023A22CB8EBC3657A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devosoft\/apto",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C936BE57B76354C9FFFC0988FC4DF911E2D7FBAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/chromiumembedded\/cef.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA85665D5D254014EB67869DC07933F82BFEC675"
+    }
+  ]
+}

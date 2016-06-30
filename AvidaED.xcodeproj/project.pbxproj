@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B426C4F91D2593F8004E5B77 /* avida in Resources */ = {isa = PBXBuildFile; fileRef = B426C4F81D2593F8004E5B77 /* avida */; };
+		B43B85A71CF3958F005552CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B72621CF3919B005552CF /* AppDelegate.swift */; };
+		B43B85A81CF395A3005552CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43B72641CF3919B005552CF /* Assets.xcassets */; };
+		B43B85A91CF395A3005552CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43B72661CF3919B005552CF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43B85B21CF3A6A9005552CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B452A80E1CF389D500E39AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43B85AA1CF39644005552CF;
+			remoteInfo = "Avida-ED web";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B426C4F81D2593F8004E5B77 /* avida */ = {isa = PBXFileReference; lastKnownFileType = folder; name = avida; path = libs/avida; sourceTree = "<group>"; };
+		B43B72601CF3919B005552CF /* AvidaED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvidaED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43B72621CF3919B005552CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43B72641CF3919B005552CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43B72671CF3919B005552CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B43B72691CF3919B005552CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43B85B11CF396E9005552CF /* mongoose */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mongoose; path = libs/mongoose; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43B725D1CF3919B005552CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43B72611CF3919B005552CF /* AvidaED */ = {
+			isa = PBXGroup;
+			children = (
+				B43B72621CF3919B005552CF /* AppDelegate.swift */,
+				B43B72641CF3919B005552CF /* Assets.xcassets */,
+				B43B72661CF3919B005552CF /* MainMenu.xib */,
+				B43B72691CF3919B005552CF /* Info.plist */,
+			);
+			path = AvidaED;
+			sourceTree = "<group>";
+		};
+		B43B85AE1CF396C8005552CF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B426C4F81D2593F8004E5B77 /* avida */,
+				B43B85B11CF396E9005552CF /* mongoose */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B452A80D1CF389D500E39AEB = {
+			isa = PBXGroup;
+			children = (
+				B43B72611CF3919B005552CF /* AvidaED */,
+				B452A8171CF389D500E39AEB /* Products */,
+				B43B85AE1CF396C8005552CF /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		B452A8171CF389D500E39AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43B72601CF3919B005552CF /* AvidaED.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B43B85AA1CF39644005552CF /* Avida-ED web */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) avida-ed";
+			buildConfigurationList = B43B85AB1CF39644005552CF /* Build configuration list for PBXLegacyTarget "Avida-ED web" */;
+			buildPhases = (
+			);
+			buildToolPath = "$(PROJECT_DIR)/libs/avida/build_avida";
+			buildWorkingDirectory = /Users/ruppmatt/devel/Avida/AvidaEDOSX/libs/avida;
+			dependencies = (
+			);
+			name = "Avida-ED web";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Avida-ED web";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B43B725F1CF3919B005552CF /* AvidaED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "AvidaED" */;
+			buildPhases = (
+				B43B725C1CF3919B005552CF /* Sources */,
+				B43B725D1CF3919B005552CF /* Frameworks */,
+				B43B725E1CF3919B005552CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43B85B31CF3A6A9005552CF /* PBXTargetDependency */,
+			);
+			name = AvidaED;
+			productName = AvidaED;
+			productReference = B43B72601CF3919B005552CF /* AvidaED.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B452A80E1CF389D500E39AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "BEACON Center for the Study of Evolution in Action";
+				TargetAttributes = {
+					B43B725F1CF3919B005552CF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B43B85AA1CF39644005552CF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B452A8111CF389D500E39AEB /* Build configuration list for PBXProject "AvidaED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = B452A80D1CF389D500E39AEB;
+			productRefGroup = B452A8171CF389D500E39AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43B725F1CF3919B005552CF /* AvidaED */,
+				B43B85AA1CF39644005552CF /* Avida-ED web */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43B725E1CF3919B005552CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B426C4F91D2593F8004E5B77 /* avida in Resources */,
+				B43B85A81CF395A3005552CF /* Assets.xcassets in Resources */,
+				B43B85A91CF395A3005552CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43B725C1CF3919B005552CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43B85A71CF3958F005552CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43B85B31CF3A6A9005552CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43B85AA1CF39644005552CF /* Avida-ED web */;
+			targetProxy = B43B85B21CF3A6A9005552CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43B72661CF3919B005552CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43B72671CF3919B005552CF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43B726B1CF3919B005552CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AvidaED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/avida/avida-core/source/platform/msvc2005/pdcurses",
+					"$(PROJECT_DIR)/libs/avida/libs/pdcurses",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.beacon-center.AvidaED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B43B726C1CF3919B005552CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AvidaED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/avida/avida-core/source/platform/msvc2005/pdcurses",
+					"$(PROJECT_DIR)/libs/avida/libs/pdcurses",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.beacon-center.AvidaED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B43B85AC1CF39644005552CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B43B85AD1CF39644005552CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B452A8211CF389D500E39AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Matthew Rupp (4W8PWX8JLN)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B452A8221CF389D500E39AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: BEACON Center for the Study of Evolution in Action (5K2B4Z3HZ6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "AvidaED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43B726B1CF3919B005552CF /* Debug */,
+				B43B726C1CF3919B005552CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43B85AB1CF39644005552CF /* Build configuration list for PBXLegacyTarget "Avida-ED web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43B85AC1CF39644005552CF /* Debug */,
+				B43B85AD1CF39644005552CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B452A8111CF389D500E39AEB /* Build configuration list for PBXProject "AvidaED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B452A8211CF389D500E39AEB /* Debug */,
+				B452A8221CF389D500E39AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B452A80E1CF389D500E39AEB /* Project object */;
+}
