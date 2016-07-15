@@ -7,10 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B426C4F91D2593F8004E5B77 /* avida in Resources */ = {isa = PBXBuildFile; fileRef = B426C4F81D2593F8004E5B77 /* avida */; };
-		B43B85A71CF3958F005552CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B72621CF3919B005552CF /* AppDelegate.swift */; };
-		B43B85A81CF395A3005552CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43B72641CF3919B005552CF /* Assets.xcassets */; };
-		B43B85A91CF395A3005552CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43B72661CF3919B005552CF /* MainMenu.xib */; };
+		B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43B72641CF3919B005552CF /* Assets.xcassets */; };
+		B44440001D25A61700006900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43B72661CF3919B005552CF /* MainMenu.xib */; };
+		B44448121D25AA7200006900 /* avida.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F51D25AA6100006900 /* avida.js */; };
+		B44448131D25AA7200006900 /* avida.js.mem in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F61D25AA6100006900 /* avida.js.mem */; };
+		B44448141D25AA7200006900 /* AvidaED.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F71D25AA6200006900 /* AvidaED.css */; };
+		B44448151D25AA7200006900 /* AvidaED.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F81D25AA6200006900 /* AvidaED.html */; };
+		B44448161D25AA7200006900 /* AvidaED.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F91D25AA6300006900 /* AvidaED.js */; };
+		B44448171D25AA7200006900 /* colormap.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FA1D25AA6400006900 /* colormap.js */; };
+		B44448181D25AA7200006900 /* cpu_tour.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FB1D25AA6400006900 /* cpu_tour.html */; };
+		B44448191D25AA7200006900 /* default.avidaedworkspace.zip in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FC1D25AA6500006900 /* default.avidaedworkspace.zip */; };
+		B444481A1D25AA7200006900 /* diagnosticConsole.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FD1D25AA6500006900 /* diagnosticConsole.js */; };
+		B444481B1D25AA7200006900 /* dojoDnd.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FE1D25AA6600006900 /* dojoDnd.js */; };
+		B444481C1D25AA7200006900 /* fileDataRead.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FF1D25AA6600006900 /* fileDataRead.js */; };
+		B444481D1D25AA7200006900 /* fileDataWrite.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448001D25AA6700006900 /* fileDataWrite.js */; };
+		B444481E1D25AA7200006900 /* fileIO.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448011D25AA6800006900 /* fileIO.js */; };
+		B444481F1D25AA7200006900 /* globals.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448021D25AA6800006900 /* globals.js */; };
+		B44448201D25AA7200006900 /* images in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448031D25AA6900006900 /* images */; };
+		B44448211D25AA7200006900 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448041D25AA6900006900 /* index.html */; };
+		B44448221D25AA7200006900 /* lib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448051D25AA6A00006900 /* lib */; };
+		B44448231D25AA7200006900 /* messaging.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448061D25AA6B00006900 /* messaging.js */; };
+		B44448241D25AA7200006900 /* mouse.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448071D25AA6B00006900 /* mouse.js */; };
+		B44448251D25AA7200006900 /* mouseDown.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448081D25AA6C00006900 /* mouseDown.js */; };
+		B44448261D25AA7200006900 /* organismView.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448091D25AA6D00006900 /* organismView.js */; };
+		B44448271D25AA7200006900 /* placeParent.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480A1D25AA6D00006900 /* placeParent.js */; };
+		B44448281D25AA7200006900 /* popControls.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480B1D25AA6E00006900 /* popControls.js */; };
+		B44448291D25AA7200006900 /* PopulationGrid.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480C1D25AA6E00006900 /* PopulationGrid.js */; };
+		B444482A1D25AA7200006900 /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480D1D25AA6F00006900 /* README.md */; };
+		B444482B1D25AA7200006900 /* restartAvida.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480E1D25AA6F00006900 /* restartAvida.js */; };
+		B444482C1D25AA7200006900 /* test.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
+		B444482D1D25AA7200006900 /* themes in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
+		B444482E1D25AA7200006900 /* utilities.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
+		B4693E601D25993C007F5BBA /* libmongoose.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4693E551D259864007F5BBA /* libmongoose.dylib */; };
+		B4693EA91D259E56007F5BBA /* mongoose.h in Headers */ = {isa = PBXBuildFile; fileRef = B4693EA61D259E19007F5BBA /* mongoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4693EAA1D259E5B007F5BBA /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = B4693EA51D259E19007F5BBA /* mongoose.c */; };
+		B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */; };
+		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
+		B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CDC1D39295000B5C88D /* ServerState.m */; };
+		B4C12CE11D393C5800B5C88D /* WebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CE01D393C5800B5C88D /* WebServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,20 +55,127 @@
 			remoteGlobalIDString = B43B85AA1CF39644005552CF;
 			remoteInfo = "Avida-ED web";
 		};
+		B4693E5E1D25992A007F5BBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B452A80E1CF389D500E39AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4693E541D259864007F5BBA;
+			remoteInfo = mongoose;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B44447F41D25A97300006900 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				B44448121D25AA7200006900 /* avida.js in CopyFiles */,
+				B44448131D25AA7200006900 /* avida.js.mem in CopyFiles */,
+				B44448141D25AA7200006900 /* AvidaED.css in CopyFiles */,
+				B44448151D25AA7200006900 /* AvidaED.html in CopyFiles */,
+				B44448161D25AA7200006900 /* AvidaED.js in CopyFiles */,
+				B44448171D25AA7200006900 /* colormap.js in CopyFiles */,
+				B44448181D25AA7200006900 /* cpu_tour.html in CopyFiles */,
+				B44448191D25AA7200006900 /* default.avidaedworkspace.zip in CopyFiles */,
+				B444481A1D25AA7200006900 /* diagnosticConsole.js in CopyFiles */,
+				B444481B1D25AA7200006900 /* dojoDnd.js in CopyFiles */,
+				B444481C1D25AA7200006900 /* fileDataRead.js in CopyFiles */,
+				B444481D1D25AA7200006900 /* fileDataWrite.js in CopyFiles */,
+				B444481E1D25AA7200006900 /* fileIO.js in CopyFiles */,
+				B444481F1D25AA7200006900 /* globals.js in CopyFiles */,
+				B44448201D25AA7200006900 /* images in CopyFiles */,
+				B44448211D25AA7200006900 /* index.html in CopyFiles */,
+				B44448221D25AA7200006900 /* lib in CopyFiles */,
+				B44448231D25AA7200006900 /* messaging.js in CopyFiles */,
+				B44448241D25AA7200006900 /* mouse.js in CopyFiles */,
+				B44448251D25AA7200006900 /* mouseDown.js in CopyFiles */,
+				B44448261D25AA7200006900 /* organismView.js in CopyFiles */,
+				B44448271D25AA7200006900 /* placeParent.js in CopyFiles */,
+				B44448281D25AA7200006900 /* popControls.js in CopyFiles */,
+				B44448291D25AA7200006900 /* PopulationGrid.js in CopyFiles */,
+				B444482A1D25AA7200006900 /* README.md in CopyFiles */,
+				B444482B1D25AA7200006900 /* restartAvida.js in CopyFiles */,
+				B444482C1D25AA7200006900 /* test.html in CopyFiles */,
+				B444482D1D25AA7200006900 /* themes in CopyFiles */,
+				B444482E1D25AA7200006900 /* utilities.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B426C4F81D2593F8004E5B77 /* avida */ = {isa = PBXFileReference; lastKnownFileType = folder; name = avida; path = libs/avida; sourceTree = "<group>"; };
-		B43B72601CF3919B005552CF /* AvidaED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvidaED.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B43B72621CF3919B005552CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43B72601CF3919B005552CF /* Avida-ED Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avida-ED Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43B72641CF3919B005552CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B43B72671CF3919B005552CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B43B72691CF3919B005552CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43B85B11CF396E9005552CF /* mongoose */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mongoose; path = libs/mongoose; sourceTree = "<group>"; };
+		B44447F51D25AA6100006900 /* avida.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = avida.js; path = libs/avida/cbuild/work/avida.js; sourceTree = "<group>"; };
+		B44447F61D25AA6100006900 /* avida.js.mem */ = {isa = PBXFileReference; lastKnownFileType = file; name = avida.js.mem; path = libs/avida/cbuild/work/avida.js.mem; sourceTree = "<group>"; };
+		B44447F71D25AA6200006900 /* AvidaED.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = AvidaED.css; path = libs/avida/cbuild/work/AvidaED.css; sourceTree = "<group>"; };
+		B44447F81D25AA6200006900 /* AvidaED.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = AvidaED.html; path = libs/avida/cbuild/work/AvidaED.html; sourceTree = "<group>"; };
+		B44447F91D25AA6300006900 /* AvidaED.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = AvidaED.js; path = libs/avida/cbuild/work/AvidaED.js; sourceTree = "<group>"; };
+		B44447FA1D25AA6400006900 /* colormap.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = colormap.js; path = libs/avida/cbuild/work/colormap.js; sourceTree = "<group>"; };
+		B44447FB1D25AA6400006900 /* cpu_tour.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = cpu_tour.html; path = libs/avida/cbuild/work/cpu_tour.html; sourceTree = "<group>"; };
+		B44447FC1D25AA6500006900 /* default.avidaedworkspace.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = default.avidaedworkspace.zip; path = libs/avida/cbuild/work/default.avidaedworkspace.zip; sourceTree = "<group>"; };
+		B44447FD1D25AA6500006900 /* diagnosticConsole.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = diagnosticConsole.js; path = libs/avida/cbuild/work/diagnosticConsole.js; sourceTree = "<group>"; };
+		B44447FE1D25AA6600006900 /* dojoDnd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = dojoDnd.js; path = libs/avida/cbuild/work/dojoDnd.js; sourceTree = "<group>"; };
+		B44447FF1D25AA6600006900 /* fileDataRead.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fileDataRead.js; path = libs/avida/cbuild/work/fileDataRead.js; sourceTree = "<group>"; };
+		B44448001D25AA6700006900 /* fileDataWrite.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fileDataWrite.js; path = libs/avida/cbuild/work/fileDataWrite.js; sourceTree = "<group>"; };
+		B44448011D25AA6800006900 /* fileIO.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fileIO.js; path = libs/avida/cbuild/work/fileIO.js; sourceTree = "<group>"; };
+		B44448021D25AA6800006900 /* globals.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = globals.js; path = libs/avida/cbuild/work/globals.js; sourceTree = "<group>"; };
+		B44448031D25AA6900006900 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = libs/avida/cbuild/work/images; sourceTree = "<group>"; };
+		B44448041D25AA6900006900 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = libs/avida/cbuild/work/index.html; sourceTree = "<group>"; };
+		B44448051D25AA6A00006900 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = libs/avida/cbuild/work/lib; sourceTree = "<group>"; };
+		B44448061D25AA6B00006900 /* messaging.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = messaging.js; path = libs/avida/cbuild/work/messaging.js; sourceTree = "<group>"; };
+		B44448071D25AA6B00006900 /* mouse.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = mouse.js; path = libs/avida/cbuild/work/mouse.js; sourceTree = "<group>"; };
+		B44448081D25AA6C00006900 /* mouseDown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = mouseDown.js; path = libs/avida/cbuild/work/mouseDown.js; sourceTree = "<group>"; };
+		B44448091D25AA6D00006900 /* organismView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = organismView.js; path = libs/avida/cbuild/work/organismView.js; sourceTree = "<group>"; };
+		B444480A1D25AA6D00006900 /* placeParent.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = placeParent.js; path = libs/avida/cbuild/work/placeParent.js; sourceTree = "<group>"; };
+		B444480B1D25AA6E00006900 /* popControls.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popControls.js; path = libs/avida/cbuild/work/popControls.js; sourceTree = "<group>"; };
+		B444480C1D25AA6E00006900 /* PopulationGrid.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = PopulationGrid.js; path = libs/avida/cbuild/work/PopulationGrid.js; sourceTree = "<group>"; };
+		B444480D1D25AA6F00006900 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = libs/avida/cbuild/work/README.md; sourceTree = "<group>"; };
+		B444480E1D25AA6F00006900 /* restartAvida.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = restartAvida.js; path = libs/avida/cbuild/work/restartAvida.js; sourceTree = "<group>"; };
+		B444480F1D25AA7000006900 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = test.html; path = libs/avida/cbuild/work/test.html; sourceTree = "<group>"; };
+		B44448101D25AA7000006900 /* themes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = themes; path = libs/avida/cbuild/work/themes; sourceTree = "<group>"; };
+		B44448111D25AA7100006900 /* utilities.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utilities.js; path = libs/avida/cbuild/work/utilities.js; sourceTree = "<group>"; };
+		B4693E551D259864007F5BBA /* libmongoose.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmongoose.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4693E971D259ADA007F5BBA /* avida-ed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avida-ed-icon.png"; sourceTree = "<group>"; };
+		B4693EA51D259E19007F5BBA /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = libs/mongoose/mongoose.c; sourceTree = "<group>"; };
+		B4693EA61D259E19007F5BBA /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = libs/mongoose/mongoose.h; sourceTree = "<group>"; };
+		B4693EAC1D259E8C007F5BBA /* apps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = apps; path = libs/avida/apps; sourceTree = "<group>"; };
+		B4693EAD1D259E8C007F5BBA /* avida-core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "avida-core"; path = "libs/avida/avida-core"; sourceTree = "<group>"; };
+		B4693EAE1D259E8C007F5BBA /* Avida.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = Avida.xcworkspace; path = libs/avida/Avida.xcworkspace; sourceTree = "<group>"; };
+		B4693EAF1D259E8C007F5BBA /* build_avida */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = build_avida; path = libs/avida/build_avida; sourceTree = "<group>"; };
+		B4693EB01D259E8C007F5BBA /* build_tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build_tools; path = libs/avida/build_tools; sourceTree = "<group>"; };
+		B4693EB11D259E8C007F5BBA /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = build.xml; path = libs/avida/build.xml; sourceTree = "<group>"; };
+		B4693EB21D259E8C007F5BBA /* cbuild */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cbuild; path = libs/avida/cbuild; sourceTree = "<group>"; };
+		B4693EB31D259E8C007F5BBA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = libs/avida/CMakeLists.txt; sourceTree = "<group>"; };
+		B4693EB41D259E8C007F5BBA /* documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = documentation; path = libs/avida/documentation; sourceTree = "<group>"; };
+		B4693EB51D259E8C007F5BBA /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = libs/avida/libs; sourceTree = "<group>"; };
+		B4693EB61D259E8C007F5BBA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = libs/avida/README; sourceTree = "<group>"; };
+		B4693EB71D259E8C007F5BBA /* run_tests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = run_tests; path = libs/avida/run_tests; sourceTree = "<group>"; };
+		B4693EB81D259E8C007F5BBA /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tools; path = libs/avida/tools; sourceTree = "<group>"; };
+		B4693EB91D259E8C007F5BBA /* update_avui.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = update_avui.sh; path = libs/avida/update_avui.sh; sourceTree = "<group>"; };
+		B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvidaEDServerAppDelegate.m; sourceTree = "<group>"; };
+		B4C12CD81D391F7400B5C88D /* AvidaEDServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvidaEDServerAppDelegate.h; sourceTree = "<group>"; };
+		B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AvidaEDServer-main.m"; sourceTree = "<group>"; };
+		B4C12CDC1D39295000B5C88D /* ServerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerState.m; sourceTree = "<group>"; };
+		B4C12CDE1D39296A00B5C88D /* ServerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerState.h; sourceTree = "<group>"; };
+		B4C12CDF1D393C4200B5C88D /* WebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServer.h; sourceTree = "<group>"; };
+		B4C12CE01D393C5800B5C88D /* WebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B43B725D1CF3919B005552CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4693E601D25993C007F5BBA /* libmongoose.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4693E521D259864007F5BBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,7 +188,8 @@
 		B43B72611CF3919B005552CF /* AvidaED */ = {
 			isa = PBXGroup;
 			children = (
-				B43B72621CF3919B005552CF /* AppDelegate.swift */,
+				B4C12CDB1D3927D500B5C88D /* Source */,
+				B4693E971D259ADA007F5BBA /* avida-ed-icon.png */,
 				B43B72641CF3919B005552CF /* Assets.xcassets */,
 				B43B72661CF3919B005552CF /* MainMenu.xib */,
 				B43B72691CF3919B005552CF /* Info.plist */,
@@ -55,13 +197,40 @@
 			path = AvidaED;
 			sourceTree = "<group>";
 		};
-		B43B85AE1CF396C8005552CF /* Libraries */ = {
+		B444482F1D25AA9900006900 /* products */ = {
 			isa = PBXGroup;
 			children = (
-				B426C4F81D2593F8004E5B77 /* avida */,
-				B43B85B11CF396E9005552CF /* mongoose */,
+				B44447F51D25AA6100006900 /* avida.js */,
+				B44447F61D25AA6100006900 /* avida.js.mem */,
+				B44447F71D25AA6200006900 /* AvidaED.css */,
+				B44447F81D25AA6200006900 /* AvidaED.html */,
+				B44447F91D25AA6300006900 /* AvidaED.js */,
+				B44447FA1D25AA6400006900 /* colormap.js */,
+				B44447FB1D25AA6400006900 /* cpu_tour.html */,
+				B44447FC1D25AA6500006900 /* default.avidaedworkspace.zip */,
+				B44447FD1D25AA6500006900 /* diagnosticConsole.js */,
+				B44447FE1D25AA6600006900 /* dojoDnd.js */,
+				B44447FF1D25AA6600006900 /* fileDataRead.js */,
+				B44448001D25AA6700006900 /* fileDataWrite.js */,
+				B44448011D25AA6800006900 /* fileIO.js */,
+				B44448021D25AA6800006900 /* globals.js */,
+				B44448031D25AA6900006900 /* images */,
+				B44448041D25AA6900006900 /* index.html */,
+				B44448051D25AA6A00006900 /* lib */,
+				B44448061D25AA6B00006900 /* messaging.js */,
+				B44448071D25AA6B00006900 /* mouse.js */,
+				B44448081D25AA6C00006900 /* mouseDown.js */,
+				B44448091D25AA6D00006900 /* organismView.js */,
+				B444480A1D25AA6D00006900 /* placeParent.js */,
+				B444480B1D25AA6E00006900 /* popControls.js */,
+				B444480C1D25AA6E00006900 /* PopulationGrid.js */,
+				B444480D1D25AA6F00006900 /* README.md */,
+				B444480E1D25AA6F00006900 /* restartAvida.js */,
+				B444480F1D25AA7000006900 /* test.html */,
+				B44448101D25AA7000006900 /* themes */,
+				B44448111D25AA7100006900 /* utilities.js */,
 			);
-			name = Libraries;
+			name = products;
 			sourceTree = "<group>";
 		};
 		B452A80D1CF389D500E39AEB = {
@@ -69,19 +238,85 @@
 			children = (
 				B43B72611CF3919B005552CF /* AvidaED */,
 				B452A8171CF389D500E39AEB /* Products */,
-				B43B85AE1CF396C8005552CF /* Libraries */,
+				B4693EA81D259E33007F5BBA /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
 		B452A8171CF389D500E39AEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B43B72601CF3919B005552CF /* AvidaED.app */,
+				B43B72601CF3919B005552CF /* Avida-ED Server.app */,
+				B4693E551D259864007F5BBA /* libmongoose.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B4693EA71D259E25007F5BBA /* Mongoose */ = {
+			isa = PBXGroup;
+			children = (
+				B4693EA51D259E19007F5BBA /* mongoose.c */,
+				B4693EA61D259E19007F5BBA /* mongoose.h */,
+			);
+			name = Mongoose;
+			sourceTree = "<group>";
+		};
+		B4693EA81D259E33007F5BBA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B4693EAB1D259E63007F5BBA /* avida (web) */,
+				B4693EA71D259E25007F5BBA /* Mongoose */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B4693EAB1D259E63007F5BBA /* avida (web) */ = {
+			isa = PBXGroup;
+			children = (
+				B444482F1D25AA9900006900 /* products */,
+				B4693EAC1D259E8C007F5BBA /* apps */,
+				B4693EAD1D259E8C007F5BBA /* avida-core */,
+				B4693EAE1D259E8C007F5BBA /* Avida.xcworkspace */,
+				B4693EAF1D259E8C007F5BBA /* build_avida */,
+				B4693EB01D259E8C007F5BBA /* build_tools */,
+				B4693EB11D259E8C007F5BBA /* build.xml */,
+				B4693EB21D259E8C007F5BBA /* cbuild */,
+				B4693EB31D259E8C007F5BBA /* CMakeLists.txt */,
+				B4693EB41D259E8C007F5BBA /* documentation */,
+				B4693EB51D259E8C007F5BBA /* libs */,
+				B4693EB61D259E8C007F5BBA /* README */,
+				B4693EB71D259E8C007F5BBA /* run_tests */,
+				B4693EB81D259E8C007F5BBA /* tools */,
+				B4693EB91D259E8C007F5BBA /* update_avui.sh */,
+			);
+			name = "avida (web)";
+			sourceTree = "<group>";
+		};
+		B4C12CDB1D3927D500B5C88D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */,
+				B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */,
+				B4C12CD81D391F7400B5C88D /* AvidaEDServerAppDelegate.h */,
+				B4C12CDC1D39295000B5C88D /* ServerState.m */,
+				B4C12CDE1D39296A00B5C88D /* ServerState.h */,
+				B4C12CDF1D393C4200B5C88D /* WebServer.h */,
+				B4C12CE01D393C5800B5C88D /* WebServer.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4693E531D259864007F5BBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4693EA91D259E56007F5BBA /* mongoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXLegacyTarget section */
 		B43B85AA1CF39644005552CF /* Avida-ED web */ = {
@@ -101,23 +336,42 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		B43B725F1CF3919B005552CF /* AvidaED */ = {
+		B43B725F1CF3919B005552CF /* Avida-ED Server */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "AvidaED" */;
+			buildConfigurationList = B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "Avida-ED Server" */;
 			buildPhases = (
+				B4443FFE1D25A4EB00006900 /* Resources */,
 				B43B725C1CF3919B005552CF /* Sources */,
 				B43B725D1CF3919B005552CF /* Frameworks */,
-				B43B725E1CF3919B005552CF /* Resources */,
+				B44447F41D25A97300006900 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B43B85B31CF3A6A9005552CF /* PBXTargetDependency */,
+				B4693E5F1D25992A007F5BBA /* PBXTargetDependency */,
 			);
-			name = AvidaED;
+			name = "Avida-ED Server";
 			productName = AvidaED;
-			productReference = B43B72601CF3919B005552CF /* AvidaED.app */;
+			productReference = B43B72601CF3919B005552CF /* Avida-ED Server.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B4693E541D259864007F5BBA /* mongoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4693E581D259864007F5BBA /* Build configuration list for PBXNativeTarget "mongoose" */;
+			buildPhases = (
+				B4693E511D259864007F5BBA /* Sources */,
+				B4693E521D259864007F5BBA /* Frameworks */,
+				B4693E531D259864007F5BBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mongoose;
+			productName = "mongoose-lib";
+			productReference = B4693E551D259864007F5BBA /* libmongoose.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -136,6 +390,9 @@
 					B43B85AA1CF39644005552CF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B4693E541D259864007F5BBA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B452A8111CF389D500E39AEB /* Build configuration list for PBXProject "AvidaED" */;
@@ -152,20 +409,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B43B725F1CF3919B005552CF /* AvidaED */,
+				B43B725F1CF3919B005552CF /* Avida-ED Server */,
 				B43B85AA1CF39644005552CF /* Avida-ED web */,
+				B4693E541D259864007F5BBA /* mongoose */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B43B725E1CF3919B005552CF /* Resources */ = {
+		B4443FFE1D25A4EB00006900 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B426C4F91D2593F8004E5B77 /* avida in Resources */,
-				B43B85A81CF395A3005552CF /* Assets.xcassets in Resources */,
-				B43B85A91CF395A3005552CF /* MainMenu.xib in Resources */,
+				B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */,
+				B44440001D25A61700006900 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +433,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43B85A71CF3958F005552CF /* AppDelegate.swift in Sources */,
+				B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */,
+				B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */,
+				B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */,
+				B4C12CE11D393C5800B5C88D /* WebServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4693E511D259864007F5BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4693EAA1D259E5B007F5BBA /* mongoose.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +455,11 @@
 			isa = PBXTargetDependency;
 			target = B43B85AA1CF39644005552CF /* Avida-ED web */;
 			targetProxy = B43B85B21CF3A6A9005552CF /* PBXContainerItemProxy */;
+		};
+		B4693E5F1D25992A007F5BBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4693E541D259864007F5BBA /* mongoose */;
+			targetProxy = B4693E5E1D25992A007F5BBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -213,7 +486,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/avida/avida-core/source/platform/msvc2005/pdcurses",
 					"$(PROJECT_DIR)/libs/avida/libs/pdcurses",
+					"$(PROJECT_DIR)/libs/avida/cbuild/work/dist/avServer",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.beacon-center.AvidaED";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -230,7 +505,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/avida/avida-core/source/platform/msvc2005/pdcurses",
 					"$(PROJECT_DIR)/libs/avida/libs/pdcurses",
+					"$(PROJECT_DIR)/libs/avida/cbuild/work/dist/avServer",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.beacon-center.AvidaED";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,10 +618,34 @@
 			};
 			name = Release;
 		};
+		B4693E561D259864007F5BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: Matthew Rupp (4W8PWX8JLN)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4693E571D259864007F5BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: BEACON Center for the Study of Evolution in Action (5K2B4Z3HZ6)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "AvidaED" */ = {
+		B43B726A1CF3919B005552CF /* Build configuration list for PBXNativeTarget "Avida-ED Server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B43B726B1CF3919B005552CF /* Debug */,
@@ -367,6 +668,15 @@
 			buildConfigurations = (
 				B452A8211CF389D500E39AEB /* Debug */,
 				B452A8221CF389D500E39AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4693E581D259864007F5BBA /* Build configuration list for PBXNativeTarget "mongoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4693E561D259864007F5BBA /* Debug */,
+				B4693E571D259864007F5BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

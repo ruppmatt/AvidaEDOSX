@@ -1,6 +1,12 @@
 {
   "images" : [
     {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "avida-ed-icon.png",
+      "scale" : "1x"
+    },
+    {
       "idiom" : "mac",
       "size" : "16x16",
       "scale" : "1x"

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B452A8151CF389D500E39AEB"
-               BuildableName = "AvidaED.app"
-               BlueprintName = "AvidaED"
+               BlueprintIdentifier = "B43B725F1CF3919B005552CF"
+               BuildableName = "Avida-ED Server.app"
+               BlueprintName = "Avida-ED Server"
                ReferencedContainer = "container:AvidaED.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B452A8151CF389D500E39AEB"
-            BuildableName = "AvidaED.app"
-            BlueprintName = "AvidaED"
+            BlueprintIdentifier = "B43B725F1CF3919B005552CF"
+            BuildableName = "Avida-ED Server.app"
+            BlueprintName = "Avida-ED Server"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B452A8151CF389D500E39AEB"
-            BuildableName = "AvidaED.app"
-            BlueprintName = "AvidaED"
+            BlueprintIdentifier = "B43B725F1CF3919B005552CF"
+            BuildableName = "Avida-ED Server.app"
+            BlueprintName = "Avida-ED Server"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B452A8151CF389D500E39AEB"
-            BuildableName = "AvidaED.app"
-            BlueprintName = "AvidaED"
+            BlueprintIdentifier = "B43B725F1CF3919B005552CF"
+            BuildableName = "Avida-ED Server.app"
+            BlueprintName = "Avida-ED Server"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

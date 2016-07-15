@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B452B1B01CF38ADC00E39AEB"
-               BuildableName = "cef"
-               BlueprintName = "cef"
+               BlueprintIdentifier = "B4693E541D259864007F5BBA"
+               BuildableName = "libmongoose.dylib"
+               BlueprintName = "mongoose"
                ReferencedContainer = "container:AvidaED.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B452B1B01CF38ADC00E39AEB"
-            BuildableName = "cef"
-            BlueprintName = "cef"
+            BlueprintIdentifier = "B4693E541D259864007F5BBA"
+            BuildableName = "libmongoose.dylib"
+            BlueprintName = "mongoose"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B452B1B01CF38ADC00E39AEB"
-            BuildableName = "cef"
-            BlueprintName = "cef"
+            BlueprintIdentifier = "B4693E541D259864007F5BBA"
+            BuildableName = "libmongoose.dylib"
+            BlueprintName = "mongoose"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
