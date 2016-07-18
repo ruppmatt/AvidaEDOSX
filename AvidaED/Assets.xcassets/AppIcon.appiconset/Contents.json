@@ -1,12 +1,6 @@
 {
   "images" : [
     {
-      "size" : "16x16",
-      "idiom" : "mac",
-      "filename" : "avida-ed-icon.png",
-      "scale" : "1x"
-    },
-    {
       "idiom" : "mac",
       "size" : "16x16",
       "scale" : "1x"
@@ -27,8 +21,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "mac",
       "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "petri.png",
       "scale" : "1x"
     },
     {

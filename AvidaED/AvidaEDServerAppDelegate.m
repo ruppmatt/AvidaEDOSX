@@ -9,6 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import "AvidaEDServerAppDelegate.h"
 #import "WebServer.h"
+#import "ServerState.h"
+
 
 
 
@@ -20,8 +22,10 @@
 
 
 
-- (void)applicationDidFinishLaunching:(NSNotification *) n
+- (void)applicationDidFinishLaunching:(NSNotification*)notification
 {
+  s_state = nil;
+  s_thread = nil;
   [self launchWebServer];
   while( ![s_state isServerReady] ){
     [NSThread sleepForTimeInterval:0.1];
@@ -31,7 +35,9 @@
 
 - (IBAction)newAvidaEDInstance:(id)sender 
 {
-  [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.weather.gov"]];
+  int port = [s_state getServerPort]; 
+  NSString *str_url = [NSString stringWithFormat:@"http://localhost:%d/AvidaED.html", port];
+  [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:str_url]];
 }
 
 
@@ -39,10 +45,10 @@
 
 - (BOOL)validateMenuItem:(NSMenuItem *) menuItem
 {
-  if ([menuItem action] == NSSelectorFromString(@"newAvidaEDInstance")){
-    if ([s_state isServerReady])
+  if ([menuItem action] == NSSelectorFromString(@"newAvidaEDInstance:")){
+    if (s_state != nil && [s_state isServerReady])
       return YES;
-  }
+  } 
   return NO;
 }
 
@@ -54,6 +60,7 @@
                 initWithTarget:[[WebServer alloc] initWithServerState:s_state]
                 selector:@selector(startServer:)
                 object:nil];
+    [s_thread start];
 }
 
 

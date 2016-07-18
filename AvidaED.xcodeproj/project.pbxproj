@@ -45,6 +45,7 @@
 		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
 		B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CDC1D39295000B5C88D /* ServerState.m */; };
 		B4C12CE11D393C5800B5C88D /* WebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CE01D393C5800B5C88D /* WebServer.m */; };
+		B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C12CE21D3D6B5B00B5C88D /* petri.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,7 +141,6 @@
 		B44448101D25AA7000006900 /* themes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = themes; path = libs/avida/cbuild/work/themes; sourceTree = "<group>"; };
 		B44448111D25AA7100006900 /* utilities.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utilities.js; path = libs/avida/cbuild/work/utilities.js; sourceTree = "<group>"; };
 		B4693E551D259864007F5BBA /* libmongoose.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmongoose.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4693E971D259ADA007F5BBA /* avida-ed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avida-ed-icon.png"; sourceTree = "<group>"; };
 		B4693EA51D259E19007F5BBA /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = libs/mongoose/mongoose.c; sourceTree = "<group>"; };
 		B4693EA61D259E19007F5BBA /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = libs/mongoose/mongoose.h; sourceTree = "<group>"; };
 		B4693EAC1D259E8C007F5BBA /* apps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = apps; path = libs/avida/apps; sourceTree = "<group>"; };
@@ -164,6 +164,7 @@
 		B4C12CDE1D39296A00B5C88D /* ServerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerState.h; sourceTree = "<group>"; };
 		B4C12CDF1D393C4200B5C88D /* WebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServer.h; sourceTree = "<group>"; };
 		B4C12CE01D393C5800B5C88D /* WebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServer.m; sourceTree = "<group>"; };
+		B4C12CE21D3D6B5B00B5C88D /* petri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = petri.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C12CDB1D3927D500B5C88D /* Source */,
-				B4693E971D259ADA007F5BBA /* avida-ed-icon.png */,
+				B4C12CE21D3D6B5B00B5C88D /* petri.png */,
 				B43B72641CF3919B005552CF /* Assets.xcassets */,
 				B43B72661CF3919B005552CF /* MainMenu.xib */,
 				B43B72691CF3919B005552CF /* Info.plist */,
@@ -422,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */,
+				B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */,
 				B44440001D25A61700006900 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,12 +9,16 @@
 #ifndef WebServer_h
 #define WebServer_h
 #import "ServerState.h"
+#include "mongoose.h"
+
 
 @interface WebServer : NSObject
 
 - (id)initWithServerState:(ServerState*) ss;
 - (void)startServer:(void*) v;
 - (void)stopServer;
+- (BOOL)tryToBindToPort;
 @end
+
 
 #endif /* WebServer_h */

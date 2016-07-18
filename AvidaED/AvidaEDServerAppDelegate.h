@@ -9,11 +9,13 @@
 #ifndef AvidaEDServerAppDelegate_h
 #define AvidaEDServerAppDelegate_h
 
-#import "ServerState.h"
 
 @interface AvidaEDServerAppDelegate : NSObject <NSApplicationDelegate>
 
 - (void)launchWebServer;
+- (void)applicationDidFinishLaunching:(NSNotification*)notification;
+- (IBAction) newAvidaEDInstance:(id)sender;
+- (BOOL)validateMenuItem:(NSMenuItem *) menuItem;
 
 @end
 
