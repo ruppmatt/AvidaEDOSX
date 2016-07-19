@@ -1,10 +1,12 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D35531AB27731B023D830237980ACEF3DEE3BB0+++61BE6F3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "9030E4BD85F13242761EF81023A22CB8EBC3657A+++F7C7E52" : 0,
     "69F966D49198AF18E6FE538E8D5C145673E847F2+++2141886" : 0,
+    "1D35531AB27731B023D830237980ACEF3DEE3BB0+++61BE6F3" : 0,
     "67F5E3B7941A812F547A65C561EF80E3258E62CE+++BC88028" : 0,
     "33423835B021EF0D85C3E0D211CDA5FCB7775AEB+++81376E3" : 0,
     "C936BE57B76354C9FFFC0988FC4DF911E2D7FBAC+++6B2C339" : 0,
@@ -18,6 +20,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "9030E4BD85F13242761EF81023A22CB8EBC3657A+++F7C7E52" : "AvidaEDOSX\/libs\/avida\/documentation\/",
     "69F966D49198AF18E6FE538E8D5C145673E847F2+++2141886" : "AvidaEDOSX\/libs\/avida\/cbuild\/work\/",
+    "1D35531AB27731B023D830237980ACEF3DEE3BB0+++61BE6F3" : "AvidaEDOSX\/",
     "67F5E3B7941A812F547A65C561EF80E3258E62CE+++BC88028" : "",
     "33423835B021EF0D85C3E0D211CDA5FCB7775AEB+++81376E3" : "AvidaEDOSX\/libs\/avida\/libs\/json\/",
     "C936BE57B76354C9FFFC0988FC4DF911E2D7FBAC+++6B2C339" : "AvidaEDOSX\/libs\/avida\/libs\/apto\/",
@@ -31,6 +34,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AvidaED.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ruppmatt\/AvidaEDOSX.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D35531AB27731B023D830237980ACEF3DEE3BB0+++61BE6F3"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cesanta\/mongoose",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

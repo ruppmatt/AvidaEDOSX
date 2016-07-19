@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4693E541D259864007F5BBA"
-               BuildableName = "libmongoose.dylib"
+               BlueprintIdentifier = "B4C12CE71D3E8A4800B5C88D"
+               BuildableName = "libmongoose.a"
                BlueprintName = "mongoose"
                ReferencedContainer = "container:AvidaED.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4693E541D259864007F5BBA"
-            BuildableName = "libmongoose.dylib"
+            BlueprintIdentifier = "B4C12CE71D3E8A4800B5C88D"
+            BuildableName = "libmongoose.a"
             BlueprintName = "mongoose"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4693E541D259864007F5BBA"
-            BuildableName = "libmongoose.dylib"
+            BlueprintIdentifier = "B4C12CE71D3E8A4800B5C88D"
+            BuildableName = "libmongoose.a"
             BlueprintName = "mongoose"
             ReferencedContainer = "container:AvidaED.xcodeproj">
          </BuildableReference>

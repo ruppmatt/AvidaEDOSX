@@ -38,14 +38,14 @@
 		B444482C1D25AA7200006900 /* test.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
 		B444482D1D25AA7200006900 /* themes in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
 		B444482E1D25AA7200006900 /* utilities.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
-		B4693E601D25993C007F5BBA /* libmongoose.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4693E551D259864007F5BBA /* libmongoose.dylib */; };
-		B4693EA91D259E56007F5BBA /* mongoose.h in Headers */ = {isa = PBXBuildFile; fileRef = B4693EA61D259E19007F5BBA /* mongoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4693EAA1D259E5B007F5BBA /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = B4693EA51D259E19007F5BBA /* mongoose.c */; };
 		B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */; };
 		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
 		B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CDC1D39295000B5C88D /* ServerState.m */; };
 		B4C12CE11D393C5800B5C88D /* WebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CE01D393C5800B5C88D /* WebServer.m */; };
 		B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C12CE21D3D6B5B00B5C88D /* petri.png */; };
+		B4C12CEC1D3E8A5E00B5C88D /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = B4693EA51D259E19007F5BBA /* mongoose.c */; };
+		B4C12CED1D3E8A5E00B5C88D /* mongoose.h in Headers */ = {isa = PBXBuildFile; fileRef = B4693EA61D259E19007F5BBA /* mongoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C12CEF1D3E8BEF00B5C88D /* libmongoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C12CE81D3E8A4800B5C88D /* libmongoose.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +56,11 @@
 			remoteGlobalIDString = B43B85AA1CF39644005552CF;
 			remoteInfo = "Avida-ED web";
 		};
-		B4693E5E1D25992A007F5BBA /* PBXContainerItemProxy */ = {
+		B4C12CF01D3E8EA800B5C88D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B452A80E1CF389D500E39AEB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4693E541D259864007F5BBA;
+			remoteGlobalIDString = B4C12CE71D3E8A4800B5C88D;
 			remoteInfo = mongoose;
 		};
 /* End PBXContainerItemProxy section */
@@ -140,7 +140,6 @@
 		B444480F1D25AA7000006900 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = test.html; path = libs/avida/cbuild/work/test.html; sourceTree = "<group>"; };
 		B44448101D25AA7000006900 /* themes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = themes; path = libs/avida/cbuild/work/themes; sourceTree = "<group>"; };
 		B44448111D25AA7100006900 /* utilities.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utilities.js; path = libs/avida/cbuild/work/utilities.js; sourceTree = "<group>"; };
-		B4693E551D259864007F5BBA /* libmongoose.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmongoose.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4693EA51D259E19007F5BBA /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = libs/mongoose/mongoose.c; sourceTree = "<group>"; };
 		B4693EA61D259E19007F5BBA /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = libs/mongoose/mongoose.h; sourceTree = "<group>"; };
 		B4693EAC1D259E8C007F5BBA /* apps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = apps; path = libs/avida/apps; sourceTree = "<group>"; };
@@ -165,6 +164,7 @@
 		B4C12CDF1D393C4200B5C88D /* WebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServer.h; sourceTree = "<group>"; };
 		B4C12CE01D393C5800B5C88D /* WebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServer.m; sourceTree = "<group>"; };
 		B4C12CE21D3D6B5B00B5C88D /* petri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = petri.png; sourceTree = "<group>"; };
+		B4C12CE81D3E8A4800B5C88D /* libmongoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmongoose.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,11 +172,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4693E601D25993C007F5BBA /* libmongoose.dylib in Frameworks */,
+				B4C12CEF1D3E8BEF00B5C88D /* libmongoose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4693E521D259864007F5BBA /* Frameworks */ = {
+		B4C12CE51D3E8A4800B5C88D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,7 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				B43B72601CF3919B005552CF /* Avida-ED Server.app */,
-				B4693E551D259864007F5BBA /* libmongoose.dylib */,
+				B4C12CE81D3E8A4800B5C88D /* libmongoose.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,11 +309,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B4693E531D259864007F5BBA /* Headers */ = {
+		B4C12CE61D3E8A4800B5C88D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4693EA91D259E56007F5BBA /* mongoose.h in Headers */,
+				B4C12CED1D3E8A5E00B5C88D /* mongoose.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,29 +350,29 @@
 			);
 			dependencies = (
 				B43B85B31CF3A6A9005552CF /* PBXTargetDependency */,
-				B4693E5F1D25992A007F5BBA /* PBXTargetDependency */,
+				B4C12CF11D3E8EA800B5C88D /* PBXTargetDependency */,
 			);
 			name = "Avida-ED Server";
 			productName = AvidaED;
 			productReference = B43B72601CF3919B005552CF /* Avida-ED Server.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4693E541D259864007F5BBA /* mongoose */ = {
+		B4C12CE71D3E8A4800B5C88D /* mongoose */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4693E581D259864007F5BBA /* Build configuration list for PBXNativeTarget "mongoose" */;
+			buildConfigurationList = B4C12CE91D3E8A4800B5C88D /* Build configuration list for PBXNativeTarget "mongoose" */;
 			buildPhases = (
-				B4693E511D259864007F5BBA /* Sources */,
-				B4693E521D259864007F5BBA /* Frameworks */,
-				B4693E531D259864007F5BBA /* Headers */,
+				B4C12CE41D3E8A4800B5C88D /* Sources */,
+				B4C12CE51D3E8A4800B5C88D /* Frameworks */,
+				B4C12CE61D3E8A4800B5C88D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = mongoose;
-			productName = "mongoose-lib";
-			productReference = B4693E551D259864007F5BBA /* libmongoose.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
+			productName = mongoose;
+			productReference = B4C12CE81D3E8A4800B5C88D /* libmongoose.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -391,7 +391,7 @@
 					B43B85AA1CF39644005552CF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					B4693E541D259864007F5BBA = {
+					B4C12CE71D3E8A4800B5C88D = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -412,7 +412,7 @@
 			targets = (
 				B43B725F1CF3919B005552CF /* Avida-ED Server */,
 				B43B85AA1CF39644005552CF /* Avida-ED web */,
-				B4693E541D259864007F5BBA /* mongoose */,
+				B4C12CE71D3E8A4800B5C88D /* mongoose */,
 			);
 		};
 /* End PBXProject section */
@@ -442,11 +442,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4693E511D259864007F5BBA /* Sources */ = {
+		B4C12CE41D3E8A4800B5C88D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4693EAA1D259E5B007F5BBA /* mongoose.c in Sources */,
+				B4C12CEC1D3E8A5E00B5C88D /* mongoose.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,10 +458,10 @@
 			target = B43B85AA1CF39644005552CF /* Avida-ED web */;
 			targetProxy = B43B85B21CF3A6A9005552CF /* PBXContainerItemProxy */;
 		};
-		B4693E5F1D25992A007F5BBA /* PBXTargetDependency */ = {
+		B4C12CF11D3E8EA800B5C88D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4693E541D259864007F5BBA /* mongoose */;
-			targetProxy = B4693E5E1D25992A007F5BBA /* PBXContainerItemProxy */;
+			target = B4C12CE71D3E8A4800B5C88D /* mongoose */;
+			targetProxy = B4C12CF01D3E8EA800B5C88D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -620,26 +620,22 @@
 			};
 			name = Release;
 		};
-		B4693E561D259864007F5BBA /* Debug */ = {
+		B4C12CEA1D3E8A4800B5C88D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer: Matthew Rupp (4W8PWX8JLN)";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "-";
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B4693E571D259864007F5BBA /* Release */ = {
+		B4C12CEB1D3E8A4800B5C88D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application: BEACON Center for the Study of Evolution in Action (5K2B4Z3HZ6)";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "-";
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -674,14 +670,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4693E581D259864007F5BBA /* Build configuration list for PBXNativeTarget "mongoose" */ = {
+		B4C12CE91D3E8A4800B5C88D /* Build configuration list for PBXNativeTarget "mongoose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4693E561D259864007F5BBA /* Debug */,
-				B4693E571D259864007F5BBA /* Release */,
+				B4C12CEA1D3E8A4800B5C88D /* Debug */,
+				B4C12CEB1D3E8A4800B5C88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
