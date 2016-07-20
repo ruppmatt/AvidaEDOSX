@@ -20,10 +20,8 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Avida-ED Server" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="New Avida-ED" enabled="NO" keyEquivalent="n" id="rBl-34-GAJ">
-                                <connections>
-                                    <action selector="newAvidaEDInstance:" target="Voe-Tx-rLC" id="mMp-L0-Uws"/>
-                                </connections>
+                            <menuItem title="About Avida-ED Server" enabled="NO" id="rBl-34-GAJ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="QYk-Gc-4vF"/>
                             <menuItem title="Quit Avida-ED Server" keyEquivalent="q" id="4sb-4s-VLi">
@@ -32,6 +30,33 @@
                                 </connections>
                             </menuItem>
                         </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="llz-ae-1VF">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" id="CzH-zu-SK4">
+                        <items>
+                            <menuItem title="New Avida-ED Workbench" keyEquivalent="n" id="dHY-kP-VfM" userLabel="New AvidaED Workbench">
+                                <connections>
+                                    <action selector="newAvidaEDInstance:" target="Voe-Tx-rLC" id="G7L-nn-oK9"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Edit" id="G2l-06-1Hg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Edit" id="eRr-s0-drH">
+                        <items>
+                            <menuItem title="Copy Avida-ED URL" keyEquivalent="c" id="vrO-5o-t9J">
+                                <connections>
+                                    <action selector="copyURLToClipboard:" target="Voe-Tx-rLC" id="Tr3-Qf-DfA"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                        <connections>
+                            <outlet property="delegate" destination="Voe-Tx-rLC" id="zrc-Kw-QEj"/>
+                        </connections>
                     </menu>
                 </menuItem>
             </items>
@@ -49,5 +74,10 @@
                 <autoresizingMask key="autoresizingMask"/>
             </view>
         </window>
+        <menuItem title="Open…" keyEquivalent="o" id="Hbb-w3-LGX">
+            <connections>
+                <action selector="openDocument:" target="-1" id="Lvn-ow-B5R"/>
+            </connections>
+        </menuItem>
     </objects>
 </document>

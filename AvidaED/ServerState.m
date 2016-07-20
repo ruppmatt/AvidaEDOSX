@@ -24,6 +24,11 @@
 }
 
 
+- (NSString*) getURL
+{
+  return [NSString stringWithFormat:@"http://localhost:%d/AvidaED.html", [self getServerPort]];
+}
+
 
 - (int)getServerPort
 {
@@ -46,9 +51,9 @@
 
 - (bool)isServerReady
 {
-  bool ready;
+  bool ready = false;
   @synchronized(port){
-    ready = (port > 0) ? true : false;
+    ready = ([port integerValue] > 0) ? true : false;
   }
   return ready;
 }

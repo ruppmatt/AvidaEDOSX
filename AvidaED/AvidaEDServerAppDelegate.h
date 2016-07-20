@@ -11,11 +11,14 @@
 
 
 @interface AvidaEDServerAppDelegate : NSObject <NSApplicationDelegate>
-
+- (void)waitForServerLaunch;
+- (void)deleteEditMenuItems;
 - (void)launchWebServer;
 - (void)applicationDidFinishLaunching:(NSNotification*)notification;
-- (IBAction) newAvidaEDInstance:(id)sender;
+- (IBAction)newAvidaEDInstance:(id)sender;
+- (IBAction)copyURLToClipboard:(id)sender;
 - (BOOL)validateMenuItem:(NSMenuItem *) menuItem;
+- (void)openAvidaEDInstance;
 
 @end
 

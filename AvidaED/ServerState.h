@@ -13,6 +13,7 @@
 
 @interface ServerState : NSObject
 
+- (NSString*)getURL;
 - (int)getServerPort;
 - (void)setServerPortTo:(int) port;
 - (bool)isServerReady;
