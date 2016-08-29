@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4085CBC1D4A7B510015C2AE /* AboutPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4085CBA1D4A7B510015C2AE /* AboutPane.xib */; };
+		B4085CC01D4A848C0015C2AE /* AvidaEDServerAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4085CBF1D4A848C0015C2AE /* AvidaEDServerAboutController.m */; };
 		B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43B72641CF3919B005552CF /* Assets.xcassets */; };
 		B44440001D25A61700006900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43B72661CF3919B005552CF /* MainMenu.xib */; };
 		B44448121D25AA7200006900 /* avida.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F51D25AA6100006900 /* avida.js */; };
@@ -107,6 +109,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4085CBB1D4A7B510015C2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutPane.xib; sourceTree = "<group>"; };
+		B4085CBF1D4A848C0015C2AE /* AvidaEDServerAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvidaEDServerAboutController.m; sourceTree = "<group>"; };
+		B4085CC11D4A85090015C2AE /* AvidaEDServerAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvidaEDServerAboutController.h; sourceTree = "<group>"; };
 		B43B72601CF3919B005552CF /* Avida-ED Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avida-ED Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43B72641CF3919B005552CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B43B72671CF3919B005552CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -186,14 +191,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4085CBD1D4A7BA90015C2AE /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				B43B72661CF3919B005552CF /* MainMenu.xib */,
+				B4085CBA1D4A7B510015C2AE /* AboutPane.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		B4085CBE1D4A7BB50015C2AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4085CBD1D4A7BA90015C2AE /* NIBs */,
+				B4C12CE21D3D6B5B00B5C88D /* petri.png */,
+				B43B72641CF3919B005552CF /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B43B72611CF3919B005552CF /* AvidaED */ = {
 			isa = PBXGroup;
 			children = (
-				B4C12CDB1D3927D500B5C88D /* Source */,
-				B4C12CE21D3D6B5B00B5C88D /* petri.png */,
-				B43B72641CF3919B005552CF /* Assets.xcassets */,
-				B43B72661CF3919B005552CF /* MainMenu.xib */,
 				B43B72691CF3919B005552CF /* Info.plist */,
+				B4C12CDB1D3927D500B5C88D /* Source */,
+				B4085CBE1D4A7BB50015C2AE /* Resources */,
 			);
 			path = AvidaED;
 			sourceTree = "<group>";
@@ -302,6 +324,8 @@
 				B4C12CDE1D39296A00B5C88D /* ServerState.h */,
 				B4C12CDF1D393C4200B5C88D /* WebServer.h */,
 				B4C12CE01D393C5800B5C88D /* WebServer.m */,
+				B4085CBF1D4A848C0015C2AE /* AvidaEDServerAboutController.m */,
+				B4085CC11D4A85090015C2AE /* AvidaEDServerAboutController.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -423,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */,
+				B4085CBC1D4A7B510015C2AE /* AboutPane.xib in Resources */,
 				B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */,
 				B44440001D25A61700006900 /* MainMenu.xib in Resources */,
 			);
@@ -438,6 +463,7 @@
 				B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */,
 				B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */,
 				B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */,
+				B4085CC01D4A848C0015C2AE /* AvidaEDServerAboutController.m in Sources */,
 				B4C12CE11D393C5800B5C88D /* WebServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +492,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B4085CBA1D4A7B510015C2AE /* AboutPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4085CBB1D4A7B510015C2AE /* Base */,
+			);
+			name = AboutPane.xib;
+			sourceTree = "<group>";
+		};
 		B43B72661CF3919B005552CF /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -677,6 +711,7 @@
 				B4C12CEB1D3E8A4800B5C88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,8 +20,11 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Avida-ED Server" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About Avida-ED Server" enabled="NO" id="rBl-34-GAJ">
+                            <menuItem title="About Avida-ED Server" id="rBl-34-GAJ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="showAboutWindow:" target="Voe-Tx-rLC" id="kBN-aQ-Z8d"/>
+                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="QYk-Gc-4vF"/>
                             <menuItem title="Quit Avida-ED Server" keyEquivalent="q" id="4sb-4s-VLi">
@@ -64,20 +67,5 @@
                 <outlet property="delegate" destination="Voe-Tx-rLC" id="Zwh-XW-ixZ"/>
             </connections>
         </menu>
-        <window title="AvidaED" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="1005" y="661" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
-            <view key="contentView" hidden="YES" horizontalHuggingPriority="1000" verticalHuggingPriority="630" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                <autoresizingMask key="autoresizingMask"/>
-            </view>
-        </window>
-        <menuItem title="Open…" keyEquivalent="o" id="Hbb-w3-LGX">
-            <connections>
-                <action selector="openDocument:" target="-1" id="Lvn-ow-B5R"/>
-            </connections>
-        </menuItem>
     </objects>
 </document>

@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "AvidaEDServerAppDelegate.h"
+#import "AvidaEDServerAboutController.h"
 #import "WebServer.h"
 #import "ServerState.h"
 
@@ -56,11 +57,12 @@
 
 
 
+
+
 - (void)openAvidaEDInstance
 {
    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[s_state getURL]]];
 }
-
 
 
 
@@ -81,16 +83,27 @@
 }
 
 
+- (IBAction)showAboutWindow:(id)sender
+{
+  AvidaEDServerAboutController* about = [AvidaEDServerAboutController sharedInstance];
+  [about showWindow:sender];
+}
+
+
 
 
 - (BOOL)validateMenuItem:(NSMenuItem *) menuItem
 {
-  if ( ([menuItem action] == NSSelectorFromString(@"newAvidaEDInstance:") ||
-        [menuItem action] == NSSelectorFromString(@"copyURLToClipboard:"))
-        && (s_state != nil && [s_state isServerReady])){
-      return YES;
+  if ([menuItem action] == NSSelectorFromString(@"newAvidaEDInstance:") ||
+      [menuItem action] == NSSelectorFromString(@"copyURLToClipboard:") )
+  {
+    if (s_state != nil && [s_state isServerReady]){
+      return YES; 
+    } else {
+      return NO;
+    }
   }
-  return NO;
+  return YES;
 }
 
 

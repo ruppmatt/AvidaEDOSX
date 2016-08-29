@@ -17,6 +17,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification*)notification;
 - (IBAction)newAvidaEDInstance:(id)sender;
 - (IBAction)copyURLToClipboard:(id)sender;
+- (IBAction)showAboutWindow:(id)sender;
 - (BOOL)validateMenuItem:(NSMenuItem *) menuItem;
 - (void)openAvidaEDInstance;
 
