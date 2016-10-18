@@ -40,7 +40,6 @@
 		B444482C1D25AA7200006900 /* test.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
 		B444482D1D25AA7200006900 /* themes in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
 		B444482E1D25AA7200006900 /* utilities.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
-		B4ADBE3A1DB685FE006690A8 /* avida-messages.js in Resources */ = {isa = PBXBuildFile; fileRef = B4ADBE391DB685FD006690A8 /* avida-messages.js */; };
 		B4ADBE3B1DB6860D006690A8 /* avida-messages.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B4ADBE391DB685FD006690A8 /* avida-messages.js */; };
 		B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */; };
 		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
@@ -356,8 +355,8 @@
 			buildConfigurationList = B43B85AB1CF39644005552CF /* Build configuration list for PBXLegacyTarget "Avida-ED web" */;
 			buildPhases = (
 			);
-			buildToolPath = "$(PROJECT_DIR)/libs/avida/build_avida";
-			buildWorkingDirectory = /Users/ruppmatt/devel/Avida/AvidaEDOSX/libs/avida;
+			buildToolPath = ./build_avida;
+			buildWorkingDirectory = "$(PROJECT_DIR)/libs/avida";
 			dependencies = (
 			);
 			name = "Avida-ED web";
@@ -454,7 +453,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4ADBE3A1DB685FE006690A8 /* avida-messages.js in Resources */,
 				B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */,
 				B4085CBC1D4A7B510015C2AE /* AboutPane.xib in Resources */,
 				B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */,
