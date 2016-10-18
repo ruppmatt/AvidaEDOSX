@@ -40,6 +40,8 @@
 		B444482C1D25AA7200006900 /* test.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
 		B444482D1D25AA7200006900 /* themes in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
 		B444482E1D25AA7200006900 /* utilities.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
+		B4ADBE3A1DB685FE006690A8 /* avida-messages.js in Resources */ = {isa = PBXBuildFile; fileRef = B4ADBE391DB685FD006690A8 /* avida-messages.js */; };
+		B4ADBE3B1DB6860D006690A8 /* avida-messages.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B4ADBE391DB685FD006690A8 /* avida-messages.js */; };
 		B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */; };
 		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
 		B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CDC1D39295000B5C88D /* ServerState.m */; };
@@ -74,6 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				B4ADBE3B1DB6860D006690A8 /* avida-messages.js in Copy Files */,
 				B44448121D25AA7200006900 /* avida.js in Copy Files */,
 				B44448131D25AA7200006900 /* avida.js.mem in Copy Files */,
 				B44448141D25AA7200006900 /* AvidaED.css in Copy Files */,
@@ -162,6 +165,7 @@
 		B4693EB71D259E8C007F5BBA /* run_tests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = run_tests; path = libs/avida/run_tests; sourceTree = "<group>"; };
 		B4693EB81D259E8C007F5BBA /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tools; path = libs/avida/tools; sourceTree = "<group>"; };
 		B4693EB91D259E8C007F5BBA /* update_avui.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = update_avui.sh; path = libs/avida/update_avui.sh; sourceTree = "<group>"; };
+		B4ADBE391DB685FD006690A8 /* avida-messages.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "avida-messages.js"; path = "libs/avida/cbuild/work/avida-messages.js"; sourceTree = "<group>"; };
 		B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvidaEDServerAppDelegate.m; sourceTree = "<group>"; };
 		B4C12CD81D391F7400B5C88D /* AvidaEDServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvidaEDServerAppDelegate.h; sourceTree = "<group>"; };
 		B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AvidaEDServer-main.m"; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 		B444482F1D25AA9900006900 /* products */ = {
 			isa = PBXGroup;
 			children = (
+				B4ADBE391DB685FD006690A8 /* avida-messages.js */,
 				B44447F51D25AA6100006900 /* avida.js */,
 				B44447F61D25AA6100006900 /* avida.js.mem */,
 				B44447F71D25AA6200006900 /* AvidaED.css */,
@@ -449,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4ADBE3A1DB685FE006690A8 /* avida-messages.js in Resources */,
 				B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */,
 				B4085CBC1D4A7B510015C2AE /* AboutPane.xib in Resources */,
 				B4C12CE31D3D6B5B00B5C88D /* petri.png in Resources */,
