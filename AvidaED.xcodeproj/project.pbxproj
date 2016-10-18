@@ -11,35 +11,35 @@
 		B4085CC01D4A848C0015C2AE /* AvidaEDServerAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4085CBF1D4A848C0015C2AE /* AvidaEDServerAboutController.m */; };
 		B4443FFF1D25A61700006900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43B72641CF3919B005552CF /* Assets.xcassets */; };
 		B44440001D25A61700006900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43B72661CF3919B005552CF /* MainMenu.xib */; };
-		B44448121D25AA7200006900 /* avida.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F51D25AA6100006900 /* avida.js */; };
-		B44448131D25AA7200006900 /* avida.js.mem in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F61D25AA6100006900 /* avida.js.mem */; };
-		B44448141D25AA7200006900 /* AvidaED.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F71D25AA6200006900 /* AvidaED.css */; };
-		B44448151D25AA7200006900 /* AvidaED.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F81D25AA6200006900 /* AvidaED.html */; };
-		B44448161D25AA7200006900 /* AvidaED.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447F91D25AA6300006900 /* AvidaED.js */; };
-		B44448171D25AA7200006900 /* colormap.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FA1D25AA6400006900 /* colormap.js */; };
-		B44448181D25AA7200006900 /* cpu_tour.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FB1D25AA6400006900 /* cpu_tour.html */; };
-		B44448191D25AA7200006900 /* default.avidaedworkspace.zip in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FC1D25AA6500006900 /* default.avidaedworkspace.zip */; };
-		B444481A1D25AA7200006900 /* diagnosticConsole.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FD1D25AA6500006900 /* diagnosticConsole.js */; };
-		B444481B1D25AA7200006900 /* dojoDnd.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FE1D25AA6600006900 /* dojoDnd.js */; };
-		B444481C1D25AA7200006900 /* fileDataRead.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44447FF1D25AA6600006900 /* fileDataRead.js */; };
-		B444481D1D25AA7200006900 /* fileDataWrite.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448001D25AA6700006900 /* fileDataWrite.js */; };
-		B444481E1D25AA7200006900 /* fileIO.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448011D25AA6800006900 /* fileIO.js */; };
-		B444481F1D25AA7200006900 /* globals.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448021D25AA6800006900 /* globals.js */; };
-		B44448201D25AA7200006900 /* images in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448031D25AA6900006900 /* images */; };
-		B44448211D25AA7200006900 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448041D25AA6900006900 /* index.html */; };
-		B44448221D25AA7200006900 /* lib in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448051D25AA6A00006900 /* lib */; };
-		B44448231D25AA7200006900 /* messaging.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448061D25AA6B00006900 /* messaging.js */; };
-		B44448241D25AA7200006900 /* mouse.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448071D25AA6B00006900 /* mouse.js */; };
-		B44448251D25AA7200006900 /* mouseDown.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448081D25AA6C00006900 /* mouseDown.js */; };
-		B44448261D25AA7200006900 /* organismView.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448091D25AA6D00006900 /* organismView.js */; };
-		B44448271D25AA7200006900 /* placeParent.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480A1D25AA6D00006900 /* placeParent.js */; };
-		B44448281D25AA7200006900 /* popControls.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480B1D25AA6E00006900 /* popControls.js */; };
-		B44448291D25AA7200006900 /* PopulationGrid.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480C1D25AA6E00006900 /* PopulationGrid.js */; };
-		B444482A1D25AA7200006900 /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480D1D25AA6F00006900 /* README.md */; };
-		B444482B1D25AA7200006900 /* restartAvida.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480E1D25AA6F00006900 /* restartAvida.js */; };
-		B444482C1D25AA7200006900 /* test.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
-		B444482D1D25AA7200006900 /* themes in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
-		B444482E1D25AA7200006900 /* utilities.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
+		B44448121D25AA7200006900 /* avida.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447F51D25AA6100006900 /* avida.js */; };
+		B44448131D25AA7200006900 /* avida.js.mem in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447F61D25AA6100006900 /* avida.js.mem */; };
+		B44448141D25AA7200006900 /* AvidaED.css in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447F71D25AA6200006900 /* AvidaED.css */; };
+		B44448151D25AA7200006900 /* AvidaED.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447F81D25AA6200006900 /* AvidaED.html */; };
+		B44448161D25AA7200006900 /* AvidaED.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447F91D25AA6300006900 /* AvidaED.js */; };
+		B44448171D25AA7200006900 /* colormap.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FA1D25AA6400006900 /* colormap.js */; };
+		B44448181D25AA7200006900 /* cpu_tour.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FB1D25AA6400006900 /* cpu_tour.html */; };
+		B44448191D25AA7200006900 /* default.avidaedworkspace.zip in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FC1D25AA6500006900 /* default.avidaedworkspace.zip */; };
+		B444481A1D25AA7200006900 /* diagnosticConsole.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FD1D25AA6500006900 /* diagnosticConsole.js */; };
+		B444481B1D25AA7200006900 /* dojoDnd.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FE1D25AA6600006900 /* dojoDnd.js */; };
+		B444481C1D25AA7200006900 /* fileDataRead.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44447FF1D25AA6600006900 /* fileDataRead.js */; };
+		B444481D1D25AA7200006900 /* fileDataWrite.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448001D25AA6700006900 /* fileDataWrite.js */; };
+		B444481E1D25AA7200006900 /* fileIO.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448011D25AA6800006900 /* fileIO.js */; };
+		B444481F1D25AA7200006900 /* globals.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448021D25AA6800006900 /* globals.js */; };
+		B44448201D25AA7200006900 /* images in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448031D25AA6900006900 /* images */; };
+		B44448211D25AA7200006900 /* index.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448041D25AA6900006900 /* index.html */; };
+		B44448221D25AA7200006900 /* lib in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448051D25AA6A00006900 /* lib */; };
+		B44448231D25AA7200006900 /* messaging.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448061D25AA6B00006900 /* messaging.js */; };
+		B44448241D25AA7200006900 /* mouse.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448071D25AA6B00006900 /* mouse.js */; };
+		B44448251D25AA7200006900 /* mouseDown.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448081D25AA6C00006900 /* mouseDown.js */; };
+		B44448261D25AA7200006900 /* organismView.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448091D25AA6D00006900 /* organismView.js */; };
+		B44448271D25AA7200006900 /* placeParent.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480A1D25AA6D00006900 /* placeParent.js */; };
+		B44448281D25AA7200006900 /* popControls.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480B1D25AA6E00006900 /* popControls.js */; };
+		B44448291D25AA7200006900 /* PopulationGrid.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480C1D25AA6E00006900 /* PopulationGrid.js */; };
+		B444482A1D25AA7200006900 /* README.md in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480D1D25AA6F00006900 /* README.md */; };
+		B444482B1D25AA7200006900 /* restartAvida.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480E1D25AA6F00006900 /* restartAvida.js */; };
+		B444482C1D25AA7200006900 /* test.html in Copy Files */ = {isa = PBXBuildFile; fileRef = B444480F1D25AA7000006900 /* test.html */; };
+		B444482D1D25AA7200006900 /* themes in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448101D25AA7000006900 /* themes */; };
+		B444482E1D25AA7200006900 /* utilities.js in Copy Files */ = {isa = PBXBuildFile; fileRef = B44448111D25AA7100006900 /* utilities.js */; };
 		B4C12CD71D37F61400B5C88D /* AvidaEDServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD61D37F61400B5C88D /* AvidaEDServerAppDelegate.m */; };
 		B4C12CDA1D39228000B5C88D /* AvidaEDServer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CD91D39228000B5C88D /* AvidaEDServer-main.m */; };
 		B4C12CDD1D39295000B5C88D /* ServerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C12CDC1D39295000B5C88D /* ServerState.m */; };
@@ -68,42 +68,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B44447F41D25A97300006900 /* CopyFiles */ = {
+		B44447F41D25A97300006900 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				B44448121D25AA7200006900 /* avida.js in CopyFiles */,
-				B44448131D25AA7200006900 /* avida.js.mem in CopyFiles */,
-				B44448141D25AA7200006900 /* AvidaED.css in CopyFiles */,
-				B44448151D25AA7200006900 /* AvidaED.html in CopyFiles */,
-				B44448161D25AA7200006900 /* AvidaED.js in CopyFiles */,
-				B44448171D25AA7200006900 /* colormap.js in CopyFiles */,
-				B44448181D25AA7200006900 /* cpu_tour.html in CopyFiles */,
-				B44448191D25AA7200006900 /* default.avidaedworkspace.zip in CopyFiles */,
-				B444481A1D25AA7200006900 /* diagnosticConsole.js in CopyFiles */,
-				B444481B1D25AA7200006900 /* dojoDnd.js in CopyFiles */,
-				B444481C1D25AA7200006900 /* fileDataRead.js in CopyFiles */,
-				B444481D1D25AA7200006900 /* fileDataWrite.js in CopyFiles */,
-				B444481E1D25AA7200006900 /* fileIO.js in CopyFiles */,
-				B444481F1D25AA7200006900 /* globals.js in CopyFiles */,
-				B44448201D25AA7200006900 /* images in CopyFiles */,
-				B44448211D25AA7200006900 /* index.html in CopyFiles */,
-				B44448221D25AA7200006900 /* lib in CopyFiles */,
-				B44448231D25AA7200006900 /* messaging.js in CopyFiles */,
-				B44448241D25AA7200006900 /* mouse.js in CopyFiles */,
-				B44448251D25AA7200006900 /* mouseDown.js in CopyFiles */,
-				B44448261D25AA7200006900 /* organismView.js in CopyFiles */,
-				B44448271D25AA7200006900 /* placeParent.js in CopyFiles */,
-				B44448281D25AA7200006900 /* popControls.js in CopyFiles */,
-				B44448291D25AA7200006900 /* PopulationGrid.js in CopyFiles */,
-				B444482A1D25AA7200006900 /* README.md in CopyFiles */,
-				B444482B1D25AA7200006900 /* restartAvida.js in CopyFiles */,
-				B444482C1D25AA7200006900 /* test.html in CopyFiles */,
-				B444482D1D25AA7200006900 /* themes in CopyFiles */,
-				B444482E1D25AA7200006900 /* utilities.js in CopyFiles */,
+				B44448121D25AA7200006900 /* avida.js in Copy Files */,
+				B44448131D25AA7200006900 /* avida.js.mem in Copy Files */,
+				B44448141D25AA7200006900 /* AvidaED.css in Copy Files */,
+				B44448151D25AA7200006900 /* AvidaED.html in Copy Files */,
+				B44448161D25AA7200006900 /* AvidaED.js in Copy Files */,
+				B44448171D25AA7200006900 /* colormap.js in Copy Files */,
+				B44448181D25AA7200006900 /* cpu_tour.html in Copy Files */,
+				B44448191D25AA7200006900 /* default.avidaedworkspace.zip in Copy Files */,
+				B444481A1D25AA7200006900 /* diagnosticConsole.js in Copy Files */,
+				B444481B1D25AA7200006900 /* dojoDnd.js in Copy Files */,
+				B444481C1D25AA7200006900 /* fileDataRead.js in Copy Files */,
+				B444481D1D25AA7200006900 /* fileDataWrite.js in Copy Files */,
+				B444481E1D25AA7200006900 /* fileIO.js in Copy Files */,
+				B444481F1D25AA7200006900 /* globals.js in Copy Files */,
+				B44448201D25AA7200006900 /* images in Copy Files */,
+				B44448211D25AA7200006900 /* index.html in Copy Files */,
+				B44448221D25AA7200006900 /* lib in Copy Files */,
+				B44448231D25AA7200006900 /* messaging.js in Copy Files */,
+				B44448241D25AA7200006900 /* mouse.js in Copy Files */,
+				B44448251D25AA7200006900 /* mouseDown.js in Copy Files */,
+				B44448261D25AA7200006900 /* organismView.js in Copy Files */,
+				B44448271D25AA7200006900 /* placeParent.js in Copy Files */,
+				B44448281D25AA7200006900 /* popControls.js in Copy Files */,
+				B44448291D25AA7200006900 /* PopulationGrid.js in Copy Files */,
+				B444482A1D25AA7200006900 /* README.md in Copy Files */,
+				B444482B1D25AA7200006900 /* restartAvida.js in Copy Files */,
+				B444482C1D25AA7200006900 /* test.html in Copy Files */,
+				B444482D1D25AA7200006900 /* themes in Copy Files */,
+				B444482E1D25AA7200006900 /* utilities.js in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -368,7 +369,7 @@
 				B4443FFE1D25A4EB00006900 /* Resources */,
 				B43B725C1CF3919B005552CF /* Sources */,
 				B43B725D1CF3919B005552CF /* Frameworks */,
-				B44447F41D25A97300006900 /* CopyFiles */,
+				B44447F41D25A97300006900 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -411,6 +412,8 @@
 				TargetAttributes = {
 					B43B725F1CF3919B005552CF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5K2B4Z3HZ6;
+						ProvisioningStyle = Automatic;
 					};
 					B43B85AA1CF39644005552CF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -515,7 +518,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5K2B4Z3HZ6;
 				INFOPLIST_FILE = AvidaED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -534,7 +539,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5K2B4Z3HZ6;
 				INFOPLIST_FILE = AvidaED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -659,7 +666,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -669,7 +676,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
